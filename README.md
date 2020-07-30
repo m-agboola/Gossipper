@@ -1,7 +1,7 @@
 # Gossipper (Twitter Bot)
 A twitter bot that performs sentiment analysis on Hashtags
 
-1.To use Twitter bot,you need to have Python 3 installed on your system.This bot uses tweepy module.You can install tweepy by using pip.To install tweepy, use this command :
+1.To use Twitter the bot, you need to have Python 3 installed on your system.This bot uses tweepy module.You can install tweepy by using pip.To install tweepy, use this command :
 
  $ pip install tweepy
 
