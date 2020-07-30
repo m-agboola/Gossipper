@@ -14,21 +14,21 @@ A twitter bot that performs sentiment analysis on Hashtags
 
 5.Now,you can run  twitterbot_text.py file to run bot which will tweet The Zen of Python texts by using this command :
 
- $ python twitterbot_text.py 
+ $ python tweepy_streamer.py 
  
 
 6.You can also use any file instead of sample.txt . To do that,you need to open tweepy_streamer.py file and edit this line my_file=open('sample.txt','r') and enter your desired filename instead of 'sample.txt' .
 
 7.Enjoy the service of Twitter Bot which tweets texts of a file .You can also alter sleep time in script as you wish.
 
-# Twitter bot which retweet,like,and follow
+# Twitter bot rates the sentiments on hashtags
 
-8.Use twitterbot_retweet.py file for a Twitter bot which retweet tweets based on particular hastag (script provided here use #python ),like tweets and follow the user who tweeted it .Set your desired Bot settings such as QUERY,LIKE,FOLLOW in config.py file  To run twitterbot_retweet.py ,use this command :
+8.Use tweepy_streamer.py file for a Twitter bot which retweet tweets based on particular hastag (script provided here use #python ),like tweets and follow the user who tweeted it. To run tweepy_streamer.py ,use this command :
 
-$ python twitterbot_retweet.py
+$ python tweepy_streamer.py.py
 9.You can use any desired hastag(such as #javascipt ) .Just edit hastag '#python' in config.py file with whatever you want.
 
-10. You can also edit code if you do not want your bot to follow  users or you do not want your bot  to like tweets.
+10. You can also edit code if you want to change how the tweets are ranked.
 
 11.You can also deploy Twitter bot on online based servers if you want to run the bot 24 hours continously.Take care of sleep/delay if you run bot the whole day.You should try to use large sleep time so that your account does not get banned.
 
