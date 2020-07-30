@@ -3,7 +3,7 @@ A twitter bot that performs sentiment analysis on Hashtags
 
 1.To use Twitter the bot, you need to have Python 3 installed on your system.This bot uses tweepy module.You can install tweepy by using pip.To install tweepy, use this command :
 
- $ pip install tweepy
+ `$ pip install tweepy`
 
 2.Now,you need to create a new application on Twitter. Either you can use your existing account or you can create a new one.Creating a new account for bot  is better so that your original Twitter account does not get banned.To create a new application on Twitter,open this URL in your browser :
  https://apps.twitter.com/
@@ -16,11 +16,11 @@ A twitter bot that performs sentiment analysis on Hashtags
 
 Tweets are classified to any of the five categories:
 
-"Great", "Good", "Normal", "Not bad" and "Horrible"
+"Great", "Good", "Not bad", "Bad" and "Terrible"
 
 You can run the script using the command below
 
- $ python tweepy_streamer.py 
+ `$ python tweepy_streamer.py` 
  
 
 6.You can also use any file instead of sample.txt . To do that,you need to open tweepy_streamer.py file and edit this line my_file=open('test.txt','r') and enter your desired filename instead of 'test.txt' .
@@ -31,7 +31,7 @@ You can run the script using the command below
 
 8.Use tweepy_streamer.py file for a Twitter bot which retweet tweets based on particular hastag (script provided here use #python ),like tweets and follow the user who tweeted it. To run tweepy_streamer.py, use this command :
 
-$ python tweepy_streamer.py.py
+`$ python tweepy_streamer.py.py`
 9.You can use any desired hastag(such as #javascipt ) .Just edit hastag '#python' in config.py file with whatever you want.
 
 10. You can also edit code if you want to change how the tweets are ranked.
