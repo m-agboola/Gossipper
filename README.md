@@ -32,6 +32,7 @@ You can run the script using the command below
 8.Use tweepy_streamer.py file for a Twitter bot which retweet tweets based on particular hastag (script provided here use #python ),like tweets and follow the user who tweeted it. To run tweepy_streamer.py, use this command :
 
 `$ python tweepy_streamer.py.py`
+
 9.You can use any desired hastag(such as #javascipt ) .Just edit hastag '#python' in config.py file with whatever you want.
 
 10. You can also edit code if you want to change how the tweets are ranked.
