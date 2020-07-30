@@ -12,18 +12,24 @@ A twitter bot that performs sentiment analysis on Hashtags
 
 4.Edit credentials.py and copy-paste  all your details carefully.
 
-5.Now,you can run  twitterbot_text.py file to run bot which will tweet The Zen of Python texts by using this command :
+5.Now,you can run  bot.py file to run bot which will tweet sentiments ranging depending on the degree of positivity/negativity of tweets:
+
+Tweets are classified to any of the five categories:
+
+"Great", "Good", "Normal", "Not bad" and "Horrible"
+
+You can run the script using the command below
 
  $ python tweepy_streamer.py 
  
 
-6.You can also use any file instead of sample.txt . To do that,you need to open tweepy_streamer.py file and edit this line my_file=open('sample.txt','r') and enter your desired filename instead of 'sample.txt' .
+6.You can also use any file instead of sample.txt . To do that,you need to open tweepy_streamer.py file and edit this line my_file=open('test.txt','r') and enter your desired filename instead of 'test.txt' .
 
-7.Enjoy the service of Twitter Bot which tweets texts of a file .You can also alter sleep time in script as you wish.
+7.Enjoy the service of Twitter Bot which tweets classifies tweets to be either "Great", "Good", "Normal", "Not bad" and "Horrible". You can also alter waiting time in script as you wish. The longer the waiting time, the more accurate the sentiment analysis is
 
 # Twitter bot rates the sentiments on hashtags
 
-8.Use tweepy_streamer.py file for a Twitter bot which retweet tweets based on particular hastag (script provided here use #python ),like tweets and follow the user who tweeted it. To run tweepy_streamer.py ,use this command :
+8.Use tweepy_streamer.py file for a Twitter bot which retweet tweets based on particular hastag (script provided here use #python ),like tweets and follow the user who tweeted it. To run tweepy_streamer.py, use this command :
 
 $ python tweepy_streamer.py.py
 9.You can use any desired hastag(such as #javascipt ) .Just edit hastag '#python' in config.py file with whatever you want.
